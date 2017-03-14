@@ -1,0 +1,45 @@
+Variables
+
+A variable is a symbol in a program that stands for a value.  The value of a
+variable can be changed while the program is running by using the assignment
+operator "=" or things like that.  In Javascript, any variable can hold a
+value of any type, such as an integer, string, or function.  In some other
+languages, a variable has a type and this restricts the type of values it can
+have.
+
+Strings
+
+A string is a value that represents text, consisting of a sequence of
+characters.  A string value can be placed directly in Javascript code by
+enclosing it with single quotes to form a string literal.  Strings support all
+kinds of useful operations.  For example, you can concatenate two strings
+using the + operator.
+
+Functions
+
+A function is a block of program code that may perform some computation and
+return a value.  Functions take zero or more arguments, which are variables
+that only exist within the body of the function.  This provides a basic and
+useful means of organizing functionality and re-using code within a larger
+project.
+
+if statements
+
+"if" is a kind of control-flow statement.  Ordinarily, the computer will
+run one statement after another, in the order that they appear inside a .js
+file or are fed into the node REPL.  Control-flow statements are exceptions to
+this.  "if" is the most basic example.  When "if" is given an expression that
+doesn't evaluate as true, then the block that follows it is skipped.  There
+may be an "else" block afterwards, which is skipped whenever the "if" block
+was not.
+
+Boolean values
+
+Boolean is a type consisting of the values true and false.  Do not confuse
+these with the strings "true" and "false"; they are their own type.  They are
+most commonly used in conjunction with control-flow statements such as "if".
+Comparison operators such as "<", "<=", "==", and "===" return Boolean values
+so that they are convenient to use with control-flow statements.  When "if" is
+used with values of other types, Javascript will first coerce them to values
+of Boolean type.  It is important to understand how these rules work, because
+they can be surprising.
